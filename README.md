@@ -6,7 +6,7 @@ Create a README.md file and for each algorithm include the following:
      * Worst case scenario
 
 
-###### Quick Sort
+## Quick Sort
 
 One number is chosen to be the pivot number.
 
@@ -17,7 +17,7 @@ The left pile has the pivot number added to it and it broken into smaller piles,
 The right pile is also seperated into smaller piles with the smaller numbers going to the left and then these piles are brought together.
 
 
-###### Bubble Sort
+## Bubble Sort
 
 The algorithm looks at the first two numbers in a list of numbers.
 
@@ -28,7 +28,7 @@ The algorithm continues to run until it can not find any numbers to change.
 This happens when all the first numbers are smaller than the second number.
 
 
-###### Merge Sort
+## Merge Sort
 
 Merge sort breaks down all the numbers into indvidual groups.
 
@@ -39,7 +39,7 @@ The pairs are joined up with another pair and the larger numbers go to the right
 These piles are then brought together and the larger numbers are pushed right for the last time, still swapping places with the numbers next to them.
 
 
-###### Insertion Sort
+## Insertion Sort
 
 Each number is compared to every other number in a list.
 
@@ -50,7 +50,7 @@ When the number is the same and further down the list, than the compared number,
 After every number is checked your list is in order.
 
 
-###### Selection Sort
+## Selection Sort
 
 The first number is compared to the list of numbers.
 
