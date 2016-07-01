@@ -1,4 +1,4 @@
-var arrayToBeSorted = [6,10,9,11,13,2,7];
+var arrayToBeSorted = [6,16,1,5,10,9,4,11,13,22,2,7];
 
 var sortedArray = [];
 for (var i = 0; i < arrayToBeSorted.length; i++){
@@ -7,7 +7,7 @@ for (var i = 0; i < arrayToBeSorted.length; i++){
       var mem = arrayToBeSorted [i];
       arrayToBeSorted[i] = arrayToBeSorted[k];
       arrayToBeSorted[k] = mem;
-      k = arrayToBeSorted.indexOf(i);
+      // k = arrayToBeSorted.indexOf(i);
     }
   }
 }
